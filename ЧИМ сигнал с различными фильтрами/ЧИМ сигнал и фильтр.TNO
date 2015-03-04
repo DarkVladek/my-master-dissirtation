@@ -1,0 +1,825 @@
+********************************************************************************
+***                            Micro-Cap 10.0.4.0                            ***
+***                                                                          ***
+***                                                                          ***
+***                Transient Analysis of ЧИМ сигнал и фильтр                 ***
+***                           16.11.2014 22:17:29                            ***
+********************************************************************************
+Limits
+======
+Time Range           2m
+Maximum Time Step    5n
+Number of Points     51
+Temperature          Linear 27
+Retrace Runs         1
+Run Options          Normal
+State Variables      Zero
+Operating Point      On
+Operating Point Only Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+Model parameters for devices of type Resistor
+=============================================
+Instance:             X9.R1             X9.R2             X9.R3             X9.R4   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X9.R5             X9.R6             X9.R7             X9.R8   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X9.R9            X9.R10            X9.R11            X9.R12   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.R13            X9.R14            X9.R15            X9.R16   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.R17            X9.R18            X9.R19            X9.R20   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.R21            X9.R22            X9.R23            X9.R24   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.R25            X9.R26            X9.R27            X9.R28   
+Using model:         X9.RM1            X9.RM1            X9.RM1            X9.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.R29   
+Using model:         X9.RM1   
+CP                UNDEFINED(*)
+LS                UNDEFINED(*)
+NM                   1.000 (*)
+R                    1.000    
+T_ABS             UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)
+TC1                  0.000 (*)
+TC2                  0.000 (*)
+TCE                  0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Capacitor
+==============================================
+Instance:             X9.C1             X9.C2             X9.C3             X9.C4   
+Using model:         X9.CM1            X9.CM1            X9.CM1            X9.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X9.C5             X9.C6             X9.C7             X9.C8   
+Using model:         X9.CM1            X9.CM1            X9.CM1            X9.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X9.C9            X9.C10            X9.C11            X9.C12   
+Using model:         X9.CM1            X9.CM1            X9.CM1            X9.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X9.C13            X9.C14            X9.C15   
+Using model:         X9.CM1            X9.CM1            X9.CM1   
+C                    1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Sine Source
+================================================
+Instance:                V1   
+Using model:          U_MOD   
+A                    1.000 (*)
+DC                   0.000 (*)
+F                    6.000K   
+PH                   0.000 (*)
+RP                   0.000 (*)
+RS                   1.000m(*)
+TAU                  0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Opamp
+==========================================
+Instance:             X9.X1             X9.X2             X9.X3             X9.X4   
+Using model:      X9.$IDEAL         X9.$IDEAL         X9.$IDEAL         X9.$IDEAL   
+LEVEL                     1                 1                 1                 1   
+A                100.000MEG        100.000MEG        100.000MEG        100.000MEG   
+C                   30.000p(*)        30.000p(*)        30.000p(*)        30.000p(*)
+CMRR               100.000K(*)       100.000K(*)       100.000K(*)       100.000K(*)
+GBW                1.000MEG(*)       1.000MEG(*)       1.000MEG(*)       1.000MEG(*)
+IBIAS              100.000n(*)       100.000n(*)       100.000n(*)       100.000n(*)
+IOFF                 1.000n(*)         1.000n(*)         1.000n(*)         1.000n(*)
+IOSC                20.000m(*)        20.000m(*)        20.000m(*)        20.000m(*)
+PD                  25.000m(*)        25.000m(*)        25.000m(*)        25.000m(*)
+PM                  60.000 (*)        60.000 (*)        60.000 (*)        60.000 (*)
+ROUTAC             500.000u          500.000u          500.000u          500.000u   
+ROUTDC               1.000m            1.000m            1.000m            1.000m   
+SRN                500.000K(*)       500.000K(*)       500.000K(*)       500.000K(*)
+SRP                500.000K(*)       500.000K(*)       500.000K(*)       500.000K(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TYPE                 1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+VCC                 15.000 (*)        15.000 (*)        15.000 (*)        15.000 (*)
+VEE                -15.000 (*)       -15.000 (*)       -15.000 (*)       -15.000 (*)
+VNS                -13.000 (*)       -13.000 (*)       -13.000 (*)       -13.000 (*)
+VOFF                 1.000m(*)         1.000m(*)         1.000m(*)         1.000m(*)
+VPS                 13.000 (*)        13.000 (*)        13.000 (*)        13.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X9.X5             X9.X6             X9.X7   
+Using model:      X9.$IDEAL         X9.$IDEAL         X9.$IDEAL   
+LEVEL                     1                 1                 1   
+A                100.000MEG        100.000MEG        100.000MEG   
+C                   30.000p(*)        30.000p(*)        30.000p(*)
+CMRR               100.000K(*)       100.000K(*)       100.000K(*)
+GBW                1.000MEG(*)       1.000MEG(*)       1.000MEG(*)
+IBIAS              100.000n(*)       100.000n(*)       100.000n(*)
+IOFF                 1.000n(*)         1.000n(*)         1.000n(*)
+IOSC                20.000m(*)        20.000m(*)        20.000m(*)
+PD                  25.000m(*)        25.000m(*)        25.000m(*)
+PM                  60.000 (*)        60.000 (*)        60.000 (*)
+ROUTAC             500.000u          500.000u          500.000u   
+ROUTDC               1.000m            1.000m            1.000m   
+SRN                500.000K(*)       500.000K(*)       500.000K(*)
+SRP                500.000K(*)       500.000K(*)       500.000K(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TYPE                 1.000 (*)         1.000 (*)         1.000 (*)
+VCC                 15.000 (*)        15.000 (*)        15.000 (*)
+VEE                -15.000 (*)       -15.000 (*)       -15.000 (*)
+VNS                -13.000 (*)       -13.000 (*)       -13.000 (*)
+VOFF                 1.000m(*)         1.000m(*)         1.000m(*)
+VPS                 13.000 (*)        13.000 (*)        13.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node            Voltage  Node            Voltage  Node            Voltage 
+1                0.000   2                1.000   3                0.000  
+4                0.000   X6.SINEOUT       1.000   X6.VMOD          0.000  
+X7.ELAPSED       0.000   X7.OUTTIMER      0.000   X7.3             0.000  
+X7.RESET         0.000   X9.1             0.000   X9.3             0.000  
+X9.4             0.000   X9.VM          -15.000   X9.6             0.000  
+X9.VP           15.000   X9.8             0.000   X9.9             0.000  
+X9.10            0.000   X9.11            0.000   X9.12            0.000  
+X9.13            0.000   X9.14            0.000   X9.15            0.000  
+X9.16            0.000   X9.17            0.000   X9.18            0.000  
+X9.19            0.000   X9.20            0.000   X9.21            0.000  
+X9.22            0.000   X9.23            0.000   X9.24            0.000  
+X9.25            0.000   X9.26            0.000   X9.27            0.000  
+X9.28            0.000   X9.29            0.000   X9.30            0.000  
+X9.31            0.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                        V1.RS                    X6.R2
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X7.R1                    X9.R1
+Using model:                        NA                   X9.RM1
+V                               1.000                    0.000 
+Power DC Terms:
+PD                              1.000n                   0.000 
+
+DC Pin Currents:
+Ir                              1.000n                   0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X9.R2                  X9.X1.R
+Using model:                    X9.RM1                       NA
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X9.R3                    X9.R4
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X9.R5                    X9.R6
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X9.X2.R                    X9.R7
+Using model:                        NA                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X9.R8                    X9.R9
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R10                  X9.X3.R
+Using model:                    X9.RM1                       NA
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R11                   X9.R12
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R13                   X9.R14
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X9.X4.R                   X9.R15
+Using model:                        NA                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R16                   X9.R17
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R18                  X9.X5.R
+Using model:                    X9.RM1                       NA
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R19                   X9.R20
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R21                   X9.R22
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X9.X6.R                   X9.R23
+Using model:                        NA                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R24                   X9.R25
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R26                  X9.X7.R
+Using model:                    X9.RM1                       NA
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R27                   X9.R28
+Using model:                    X9.RM1                   X9.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X9.R29
+Using model:                    X9.RM1
+V                               0.000 
+Power DC Terms:
+PD                              0.000 
+
+DC Pin Currents:
+Ir                              0.000 
+
+Device Variables:
+tc1                             0.000 
+tc2                             0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                        X6.C1                    X9.C1
+Using model:                        NA                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X9.C2                    X9.C3
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X9.C4                    X9.C5
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X9.C6                    X9.C7
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X9.C8                    X9.C9
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X9.C10                   X9.C11
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X9.C12                   X9.C13
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X9.C14                   X9.C15
+Using model:                    X9.CM1                   X9.CM1
+V                               0.000                    0.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+
+Operating Point for Devices of Type Opamp
+=========================================
+Instance:                       X9.X1                    X9.X2
+Using model:                X9.$IDEAL                X9.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X9.X3                    X9.X4
+Using model:                X9.$IDEAL                X9.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X9.X5                    X9.X6
+Using model:                X9.$IDEAL                X9.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X9.X7
+Using model:                X9.$IDEAL
+Condition:
+State                             LIN
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                           V1
+Using model:                     U_MOD
+V                               0.000 
+Power DC Terms:
+PG                              0.000 
+
+DC Pin Currents:
+ISource                         0.000 
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:                        X6.G
+V                              0.000 
+Power DC Terms:
+PG                             0.000 
+
+DC Pin Currents:
+ISource                        0.000 
+
+
+
+Operating Point for Devices of Type Function Source
+===================================================
+Instance:                      X6.VCO                    X6.E1
+V                              1.000                    1.000 
+Power DC Terms:
+PG                             0.000                    1.000n
+
+DC Pin Currents:
+ISource                        0.000                   -1.000n
+
+
+Instance:                       X7.E1
+V                              0.000 
+Power DC Terms:
+PG                             0.000 
+
+DC Pin Currents:
+ISource                        0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:       X7.TIMER1.ElapsedTime            X7.TIMER1.Cnt
+V                              0.000                    0.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+
+Instance:          X7.TIMER1.LastTime                    X7.V1
+V                              0.000                    0.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+
+Instance:                       X9.V1                    X9.V2
+V                             15.000                   15.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+

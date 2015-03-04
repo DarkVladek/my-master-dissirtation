@@ -1,0 +1,19 @@
+********************************************************************************
+***                            Micro-Cap 10.0.4.0                            ***
+***                                                                          ***
+***                                                                          ***
+***             Transient Analysis of нормальный шум (один блок)             ***
+***                           27.10.2014 23:36:24                            ***
+********************************************************************************
+Limits
+======
+Time Range           5
+Maximum Time Step    10u
+Number of Points     51
+Temperature          Linear 27
+Retrace Runs         1
+Run Options          Normal
+State Variables      Zero
+Operating Point      Off
+Operating Point Only Off
+

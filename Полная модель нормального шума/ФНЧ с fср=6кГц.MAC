@@ -1,0 +1,772 @@
+[Main]
+FileType=CIR
+Version=10.01
+Program=Micro-Cap
+Component Version=10.00
+Shape Version=10.01
+Screen=1680,1050
+MCAPVersion=10.0.4.0
+Key ID=0
+NLCnt=31
+TXCnt=6
+
+[shapedef]
+Name=Capacitor
+Line=0,0,22,0
+Line=22,-8,22,8
+Line=26,-8,26,8
+Line=26,0,48,0
+Current=32,12,16,12
+
+[shapedef]
+Name=Ground
+Line=0,0,12,0
+Line=12,-8,12,8
+Line=18,-4,18,4
+Line=24,0,24,0
+
+[shapedef]
+Name=Ground_Euro
+Line=0,0,12,0
+Line=12,-8,12,8
+
+[shapedef]
+Name=Inductor
+Line=42,0,48,0
+Line=0,0,5,0
+Arc=5,-7,17,7 , 11,-7,5,0
+Arc=13,-7,25,7 , 19,-7,13,0
+Arc=29,-7,41,7 , 35,-7,29,0
+Arc=21,-7,33,7 , 27,-7,21,0
+Arc=6,-7,18,7 , 18,0,12,-7
+Arc=14,-7,26,7 , 26,0,20,-7
+Arc=22,-7,34,7 , 34,0,28,-7
+Arc=30,-7,42,7 , 42,0,36,-7
+Line=11,-7,12,-7
+Line=19,-7,20,-7
+Line=27,-7,28,-7
+Line=35,-7,36,-7
+Arc=13,-4,17,2 , 13,-1,15,2
+Arc=29,-4,33,2 , 29,-1,31,2
+Arc=21,-4,25,2 , 21,-1,23,2
+Arc=14,-4,18,2 , 16,2,18,-1
+Arc=30,-4,34,2 , 32,2,34,-1
+Arc=22,-4,26,2 , 24,2,26,-1
+Line=15,2,16,2
+Line=23,2,24,2
+Line=31,2,32,2
+Line=5,5,9,5
+Line=41,5,41,9
+Line=39,7,43,7
+Current=32,8,16,8
+
+[shapedef]
+Name=Resistor
+PolyOpen=12
+PolyLine=0,0
+PolyLine=0,0
+PolyLine=12,0
+PolyLine=14,-4
+PolyLine=18,4
+PolyLine=22,-4
+PolyLine=26,4
+PolyLine=30,-4
+PolyLine=34,4
+PolyLine=36,0
+PolyLine=48,0
+PolyLine=48,0
+Current=32,8,16,8
+
+[shapedef]
+Name=Resistor_Euro
+Rectangle=12,-4,36,4
+FColor=None
+Line=0,0,12,0
+Line=48,0,36,0
+Current=32,8,16,8
+
+[compdef]
+Name=Inductor
+Definition=Inductor
+Shape=Inductor
+Mask=7425
+Used=27
+memo=Inductor
+Label Offset=18,9,11,12
+PinCnt=2
+Pin="Plus",6,0,-5,-9
+Pin="Minus",0,0,-3,-9
+
+[compdef]
+Name=Capacitor
+Definition=Capacitor
+Shape=Capacitor
+Mask=6401
+Used=127
+memo=Capacitor
+Label Offset=16,12,12,12
+PinCnt=2
+Pin="Plus",6,0,-3,-5
+Pin="Minus",0,0,-14,-5
+
+[compdef]
+Name=Ground
+Definition=Ground
+Shape=Ground
+Mask=1793
+Used=151
+memo=Ground
+Label Offset=0,0,0,0
+PinCnt=1
+Pin="PinA",0,0,-3,-7
+
+[compdef]
+Name=Resistor
+Definition=Resistor
+Shape=Resistor
+Mask=6401
+Used=179
+memo=Resistor
+Label Offset=18,6,8,11
+PinCnt=2
+Pin="Plus",6,0,-10,-4
+Pin="Minus",0,0,-14,-4
+
+[Circuit]
+Window Placement=2,3, -1,-1, -8,-30, 50,50,1275,622
+Default Object=Color=#000080
+Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
+Default Object Apply Border To Text=No
+Default Object Apply Fill To Text=No
+WinBackGround Color=#FFFFFF
+Select Color=#FF0000
+Select Box Color=#000080
+Grid Text Color=Height=-12,FStyle=0,Color=#0000FF,Name=Verdana
+Component Color=#0000FF
+Attribute Text=Height=-12,FStyle=0,Color=#008000,Name=Verdana
+Wire Color=#008000
+Bus Color=#008000
+Pin Connection=Height=-10,FStyle=0,Color=#FF0000,Name=Arial
+Node Number=Height=-11,FStyle=0,Color=#FF00FF,Name=Arial
+Node Voltage Color=Height=-11,FStyle=0,Color=#000000,Name=Arial
+Dynamic AC Voltage Color=#E4E4E4
+Text Banner Text=Height=-15,FStyle=0,Color=#800000,Name=Arial
+Title Block Background=#C0C0C0
+Current=Height=-11,FStyle=0,Color=#0000FF,Name=Arial
+Power/Condition=Height=-11,FStyle=0,Color=#FF0000,Name=Arial
+Digital Path Color=#FF0000
+Title Block=Height=-15,FStyle=0,Color=#000000,Name=Arial
+Title Block Border=#000000
+Disabled	Color=#C0C0C0
+KeyWord Color=#0000FF
+Error	Color=#FF0000
+Search Color=#FFFF00
+Grid Color=#000000
+Digital 0 Color=#000000
+Digital R Color=#FFFF00
+Digital F Color=#FFFF00
+Digital 1 Color=#FF0000
+Digital X Color=#C0C0C0
+Digital Z Color=#808080
+NodeVoltageFormat=3
+PathDelayFormat=3
+WarningFormat=3
+GridTextFormulaFormat=3
+SpiceType=AMBIGUOUS
+Block Select Color=#51F998
+TitleBlock Field_1=$name
+TitleBlock Field_2=$user $company
+TitleBlock Field_3
+TitleBlock Field_4=$date
+TitleBlock Field_5=Page $page of $maxpage
+TitleBlock One Title=False
+Title_Block_Border=False
+Title_Block=False
+Show Nodes=False
+Show Voltages=False
+Show Current=False
+Show Power=False
+Show Condition=False
+Show Pin Connections=False
+Show Cross=False
+Show Attribute Text=True
+Show Grid Text=True
+
+[Comp]
+Name=Inductor
+Grid=61,24
+Rot=6
+
+[Attr]
+ON=-27,-31,PART
+V=L1
+Style=8192
+
+[Attr]
+ON=-34,10,INDUCTANCE
+V=1.4737m
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=IM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Capacitor
+Grid=50,33
+Rot=3
+
+[Attr]
+ON=15,-43,PART
+V=C1
+Style=8192
+
+[Attr]
+ON=9,-25,CAPACITANCE
+V=206.99726n
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=CM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Grid=50,33
+Rot=1
+
+[Wire]
+Grids=46,24,50,24
+
+[Wire]
+Grids=50,24,50,27
+
+[Wire]
+Grids=50,24,55,24
+
+[Wire]
+Grids=61,24,66,24
+
+[Comp]
+Name=Inductor
+Grid=81,24
+Rot=6
+
+[Attr]
+ON=-27,-31,PART
+V=L2
+Style=8192
+
+[Attr]
+ON=-34,10,INDUCTANCE
+V=2.60161m
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=IM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Capacitor
+Grid=70,33
+Rot=3
+
+[Attr]
+ON=15,-43,PART
+V=C2
+Style=8192
+
+[Attr]
+ON=9,-25,CAPACITANCE
+V=882.21666n
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=CM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Grid=70,33
+Rot=1
+
+[Wire]
+Grids=66,24,70,24
+
+[Wire]
+Grids=70,24,70,27
+
+[Wire]
+Grids=70,24,75,24
+
+[Wire]
+Grids=81,24,86,24
+
+[Comp]
+Name=Inductor
+Grid=101,24
+Rot=6
+
+[Attr]
+ON=-27,-31,PART
+V=L3
+Style=8192
+
+[Attr]
+ON=-34,10,INDUCTANCE
+V=2.20554m
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=IM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Capacitor
+Grid=90,33
+Rot=3
+
+[Attr]
+ON=15,-43,PART
+V=C3
+Style=8192
+
+[Attr]
+ON=9,-25,CAPACITANCE
+V=1.04065u
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=CM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Grid=90,33
+Rot=1
+
+[Wire]
+Grids=86,24,90,24
+
+[Wire]
+Grids=90,24,90,27
+
+[Wire]
+Grids=90,24,95,24
+
+[Wire]
+Grids=101,24,106,24
+
+[Comp]
+Name=Inductor
+Grid=121,24
+Rot=6
+
+[Attr]
+ON=-27,-31,PART
+V=L4
+Style=8192
+
+[Attr]
+ON=-34,10,INDUCTANCE
+V=517.49315u
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=IM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Capacitor
+Grid=110,33
+Rot=3
+
+[Attr]
+ON=15,-43,PART
+V=C4
+Style=8192
+
+[Attr]
+ON=9,-25,CAPACITANCE
+V=589.47833n
+Style=8192
+
+[Attr]
+ON=0,44,MODEL
+V=CM1
+
+[Attr]
+ON=0,55,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Grid=110,33
+Rot=1
+
+[Wire]
+Grids=106,24,110,24
+
+[Wire]
+Grids=110,24,110,27
+
+[Wire]
+Grids=110,24,115,24
+
+[Wire]
+Grids=121,24,126,24
+
+[Comp]
+Name=Resistor
+Grid=40,24
+
+[Attr]
+ON=18,6,PART
+V=RS
+Style=8192
+
+[Attr]
+ON=18,20,RESISTANCE
+V=50
+Style=8192
+
+[Attr]
+ON=0,0,MODEL
+V=RM1
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Resistor
+Grid=126,24
+Rot=1
+
+[Attr]
+ON=8,11,PART
+V=RL
+Style=8192
+
+[Attr]
+ON=8,25,RESISTANCE
+V=50
+Style=8192
+
+[Attr]
+ON=0,0,MODEL
+V=RM1
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Grid=126,30
+Rot=7
+
+[Grid Text]
+Text="Out"
+Grid=126,24
+CBorder=None
+
+[Grid Text]
+Text="In"
+Grid=40,24
+CBorder=None
+
+[Grid Text]
+Text="Low-Pass Butterworth Standard"
+Text="Gain=0dB Cutoff Frequency=6000Hz Ripple=3.0103dB Order=8"
+Text="Impedance Scale Factor=1"
+Grid=20,6
+CFill=#C0C0C0
+CBorder=#000000
+
+[Grid Text]
+Text="LP = Ideal low-pass response based upon choice of filter type and response. "
+Grid=46,38
+CBorder=None
+
+[Grid Text]
+Text=".define U (S/(2*PI*6000))"
+Grid=46,41
+CBorder=None
+
+[Grid Text]
+Text=".define LP "
+Text="1/(U*U+0.39018*U+1)*"
+Text="1/(U*U+1.1111*U+1)*"
+Text="1/(U*U+1.6629*U+1)*"
+Text="1/(U*U+1.9616*U+1)*"
+Text="1"
+Grid=46,53
+CBorder=None
+
+[Schematic]
+CurrentSection 0=0
+CurrentSection 1=0
+CurrentSection 2=0
+CurrentSection 3=0
+Splitter.xs=0
+Splitter.ys=0
+TextQuad=4099
+Scale=1
+PrinterScale=1
+GridUser=10
+ShapeGroups="Euro","Main","Polarity","Electrolytic","GroundArrow","DeMorgan"
+CalcRMS=False
+CalcAVG=False
+CalcPeak=False
+CalcVoltage=True
+DisplayMeasure=Last
+
+[Tools]
+Pos=Top
+FILESAVEASOLD=No
+BOM=No
+FILEPCB=No
+PROBE=Yes
+SELECT=Yes
+COMP=Yes
+TEXT=Yes
+WIRE=Yes
+WIRED=Yes
+BUS=Yes
+GRAPHIC=Yes
+LINE=No
+ELLIPSE=No
+RECT=No
+DIAM=No
+ARC=No
+PIE=No
+LEFTBRK=No
+RIGHTBRK=No
+BOTHBRK=No
+META=No
+FLAG=Yes
+INFO=Yes
+HELP=Yes
+HELP_SPICE=No
+LINK=Yes
+REGION_ENABLE=Yes
+DIGTRC=No
+DIGTRC2=No
+DIGALL=No
+GRIDTEXT=Yes
+COMPTEXT=Yes
+NODE=Yes
+MEASURED=Yes
+NODEV=Yes
+CURRENT=Yes
+POWER=Yes
+CONDITIN=Yes
+PIN=Yes
+CROSS=No
+GRID=Yes
+BORDER=No
+TITLE=Yes
+RUBBER=Yes
+PROPERTY=Yes
+STEP=Yes
+MIRROR=Yes
+ROTATE=Yes
+FLIPY=Yes
+FLIPX=Yes
+CIR_MAKEMACRO=No
+CLEARCUTWIRE=No
+FINDCOMP=Yes
+FIND=Yes
+REPEAT=No
+REPLACE=No
+MODEL=Yes
+CIR2CKT=No
+ATTDISP=No
+ENABLE=Yes
+DISABLE=Yes
+TOFRONT=Yes
+TOBACK=Yes
+SELNEXT=No
+PAGEADD=No
+PAGEADDTEXT=No
+ADDSECTION=No
+PAGEDEL=No
+ZOOMIN=Yes
+ZOOMOUT=Yes
+GOTOFLAG=No
+UPLEVEL=Yes
+COLOR=Yes
+FONT=Yes
+DM_LAST=No
+DM_RMS=No
+DM_AVG=No
+DM_PEAK=No
+GRID_NONE=No
+GRID_NORMAL=No
+GRID_BOLD_5=No
+GRID_BOLD_6=No
+GRID_BOLD_USER=No
+SPLITCIRTEXTH=No
+SPLITCIRTEXTV=No
+SPACE_SPLITTERS_EVENLY=No
+NORMALCIR=No
+RENAMEDEFINE=No
+RENAMECMP=No
+ATTALIGN=No
+RESETNODEPOS=No
+FIT2STANDARD=No
+NODESNAP=No
+MOVETEXT=No
+TEXTINC=No
+TOGGLETEXT=No
+TOGGLEMODE=No
+TOLERANCE=No
+ALIGNLEFT=No
+ALIGNRIGHT=No
+ALIGNTOP=No
+ALIGNBOTTOM=No
+
+[Section]
+Index=0
+Name="L_B_S_6000_8"
+Type=Main
+Enable=True
+CurrentPage 0=0
+CurrentPage 1=0
+CurrentPage 2=0
+CurrentPage 3=0
+TabSize 0=425
+TabSize 1=425
+TabSize 2=425
+TabSize 3=425
+
+[Page]
+Index=0
+Section=0
+Print=True
+Enable=True
+Name=Main
+Scale 0=1
+Scale 1=1
+Scale 2=1
+Scale 3=1
+Grid=0,0
+
+[Page]
+Index=1
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Text
+
+[Page]
+Index=2
+Section=0
+Type=Text
+Print=False
+Enable=True
+Name=Models
+
+[Page]
+Index=3
+Section=0
+Type=Info
+Print=False
+Enable=True
+Name=Info
+
+[Text Area]
+Section=0
+Page=1
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+Background Color=#FFFFFF
+
+[Text Area]
+Section=0
+Page=2
+Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
+Comment Color=#008000
+Background Color=#FFFFFF
+Text=.MODEL RM1 RES (R=1)
+Text=.MODEL CM1 CAP (C=1)
+Text=.MODEL IM1 IND (L=1)
+
+[Limits]
+Analysis=DynamicAC
+FirstValueDisplay=Mag
+SecondValueDisplay=PhaseDeg
+PlaceText=True
+
+[Limits]
+Analysis=DynamicDC
+PlaceText=True
+
+[Pane]
+Analysis=Transient
+
+[Pane]
+Analysis=AC
+
+[Pane]
+Analysis=DC
+
+[Pane]
+Analysis=HmDistortion
+
+[Pane]
+Analysis=ImDistortion
+
+[OPMethods]
+Analysis=Transient
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=AC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
+
+[OPMethods]
+Analysis=DC
+Standard Newton-Raphson=0,0
+Source Stepping=0,0
+Diagonal Gmin Stepping=0,0
+Junction Gmin Stepping=0,0
+Pseudo Transient=0,0
