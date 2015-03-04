@@ -1,0 +1,656 @@
+********************************************************************************
+***                            Micro-Cap 10.0.4.0                            ***
+***                                                                          ***
+***                                                                          ***
+***                Transient Analysis of ×ÈÌ ãåíåðàòîð è ÔÍ×                 ***
+***                           21.12.2014 23:25:59                            ***
+********************************************************************************
+Limits
+======
+Time Range           5m
+Maximum Time Step    10n
+Number of Points     51
+Temperature          Linear 27
+Retrace Runs         1
+Run Options          Normal
+State Variables      Zero
+Operating Point      On
+Operating Point Only Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27 
+
+Model parameters for devices of type Resistor
+=============================================
+Instance:             X8.R1             X8.R2             X8.R5             X8.R6   
+Using model:         X8.RM1            X8.RM1            X8.RM1            X8.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X8.R9            X8.R10            X8.R13            X8.R14   
+Using model:         X8.RM1            X8.RM1            X8.RM1            X8.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X8.R17            X8.R18            X8.R21            X8.R22   
+Using model:         X8.RM1            X8.RM1            X8.RM1            X8.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X8.R25            X8.R26            X8.R29   
+Using model:         X8.RM1            X8.RM1            X8.RM1   
+CP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+NM                   1.000 (*)         1.000 (*)         1.000 (*)
+R                    1.000             1.000             1.000    
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)
+TCE                  0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Capacitor
+==============================================
+Instance:             X8.C1             X8.C2             X8.C3             X8.C4   
+Using model:         X8.CM1            X8.CM1            X8.CM1            X8.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X8.C5             X8.C6             X8.C7             X8.C8   
+Using model:         X8.CM1            X8.CM1            X8.CM1            X8.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X8.C9            X8.C10            X8.C11            X8.C12   
+Using model:         X8.CM1            X8.CM1            X8.CM1            X8.CM1   
+C                    1.000             1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Instance:            X8.C13            X8.C14            X8.C15   
+Using model:         X8.CM1            X8.CM1            X8.CM1   
+C                    1.000             1.000             1.000    
+LS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RP                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+RS                UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TC1                  0.000 (*)         0.000 (*)         0.000 (*)
+TC2                  0.000 (*)         0.000 (*)         0.000 (*)
+VC1                  0.000 (*)         0.000 (*)         0.000 (*)
+VC2                  0.000 (*)         0.000 (*)         0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Sine Source
+================================================
+Instance:                V1   
+Using model:          U_MOD   
+A                    1.000 (*)
+DC                   0.000 (*)
+F                    6.000K   
+PH                   0.000 (*)
+RP                   0.000 (*)
+RS                   1.000m(*)
+TAU                  0.000 (*)
+(*) Default Parameter
+
+
+
+Model parameters for devices of type Opamp
+==========================================
+Instance:             X8.X1             X8.X2             X8.X3             X8.X4   
+Using model:      X8.$IDEAL         X8.$IDEAL         X8.$IDEAL         X8.$IDEAL   
+LEVEL                     1                 1                 1                 1   
+A                100.000MEG        100.000MEG        100.000MEG        100.000MEG   
+C                   30.000p(*)        30.000p(*)        30.000p(*)        30.000p(*)
+CMRR               100.000K(*)       100.000K(*)       100.000K(*)       100.000K(*)
+GBW                1.000MEG(*)       1.000MEG(*)       1.000MEG(*)       1.000MEG(*)
+IBIAS              100.000n(*)       100.000n(*)       100.000n(*)       100.000n(*)
+IOFF                 1.000n(*)         1.000n(*)         1.000n(*)         1.000n(*)
+IOSC                20.000m(*)        20.000m(*)        20.000m(*)        20.000m(*)
+PD                  25.000m(*)        25.000m(*)        25.000m(*)        25.000m(*)
+PM                  60.000 (*)        60.000 (*)        60.000 (*)        60.000 (*)
+ROUTAC             500.000u          500.000u          500.000u          500.000u   
+ROUTDC               1.000m            1.000m            1.000m            1.000m   
+SRN                500.000K(*)       500.000K(*)       500.000K(*)       500.000K(*)
+SRP                500.000K(*)       500.000K(*)       500.000K(*)       500.000K(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TYPE                 1.000 (*)         1.000 (*)         1.000 (*)         1.000 (*)
+VCC                 15.000 (*)        15.000 (*)        15.000 (*)        15.000 (*)
+VEE                -15.000 (*)       -15.000 (*)       -15.000 (*)       -15.000 (*)
+VNS                -13.000 (*)       -13.000 (*)       -13.000 (*)       -13.000 (*)
+VOFF                 1.000m(*)         1.000m(*)         1.000m(*)         1.000m(*)
+VPS                 13.000 (*)        13.000 (*)        13.000 (*)        13.000 (*)
+(*) Default Parameter
+
+
+
+Instance:             X8.X5             X8.X6             X8.X7   
+Using model:      X8.$IDEAL         X8.$IDEAL         X8.$IDEAL   
+LEVEL                     1                 1                 1   
+A                100.000MEG        100.000MEG        100.000MEG   
+C                   30.000p(*)        30.000p(*)        30.000p(*)
+CMRR               100.000K(*)       100.000K(*)       100.000K(*)
+GBW                1.000MEG(*)       1.000MEG(*)       1.000MEG(*)
+IBIAS              100.000n(*)       100.000n(*)       100.000n(*)
+IOFF                 1.000n(*)         1.000n(*)         1.000n(*)
+IOSC                20.000m(*)        20.000m(*)        20.000m(*)
+PD                  25.000m(*)        25.000m(*)        25.000m(*)
+PM                  60.000 (*)        60.000 (*)        60.000 (*)
+ROUTAC             500.000u          500.000u          500.000u   
+ROUTDC               1.000m            1.000m            1.000m   
+SRN                500.000K(*)       500.000K(*)       500.000K(*)
+SRP                500.000K(*)       500.000K(*)       500.000K(*)
+T_ABS             UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_MEASURED        UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_GLOBAL      UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+T_REL_LOCAL       UNDEFINED(*)      UNDEFINED(*)      UNDEFINED(*)
+TYPE                 1.000 (*)         1.000 (*)         1.000 (*)
+VCC                 15.000 (*)        15.000 (*)        15.000 (*)
+VEE                -15.000 (*)       -15.000 (*)       -15.000 (*)
+VNS                -13.000 (*)       -13.000 (*)       -13.000 (*)
+VOFF                 1.000m(*)         1.000m(*)         1.000m(*)
+VPS                 13.000 (*)        13.000 (*)        13.000 (*)
+(*) Default Parameter
+
+
+
+DC Operating Point Voltages
+===========================
+Node            Voltage  Node            Voltage  Node            Voltage 
+1                0.000   2                1.000   3               -1.000  
+4               -1.000   X6.SINEOUT       1.000   X6.VMOD          0.000  
+X7.ELAPSED       0.000   X7.OUTTIMER      0.000   X7.3             0.000  
+X7.RESET         0.000   X8.1            -1.000   X8.3            -1.000  
+X8.4            -1.000   X8.VM          -15.000   X8.VP           15.000  
+X8.7            -1.000   X8.8            -1.000   X8.9            -1.000  
+X8.10           -1.000   X8.11           -1.000   X8.12           -1.000  
+X8.13           -1.000   X8.14           -1.000   X8.15           -1.000  
+X8.16           -1.000   X8.17           -1.000   X8.18           -1.000  
+X8.19           -1.000   X8.20           -1.000   X8.21           -1.000  
+X8.22           -1.000   X8.23           -1.000   X8.24           -1.000  
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                        V1.RS                    X6.R2
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X7.R1                    X8.R1
+Using model:                        NA                   X8.RM1
+V                               1.000                    0.000 
+Power DC Terms:
+PD                              1.000n                   0.000 
+
+DC Pin Currents:
+Ir                              1.000n                   0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X8.R2                  X8.X1.R
+Using model:                    X8.RM1                       NA
+V                               0.111f                  -1.000 
+Power DC Terms:
+PD                          6.322E-040                 666.667 
+
+DC Pin Currents:
+Ir                          5.695E-024                -666.667 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                        X8.R5                    X8.R6
+Using model:                    X8.RM1                   X8.RM1
+V                               0.111f                   0.000 
+Power DC Terms:
+PD                          7.956E-038                   0.000 
+
+DC Pin Currents:
+Ir                          7.167E-022                   0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X8.X2.R                    X8.R9
+Using model:                        NA                   X8.RM1
+V                              -1.000                    0.000 
+Power DC Terms:
+PD                            666.667                    0.000 
+
+DC Pin Currents:
+Ir                           -666.667                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R10                  X8.X3.R
+Using model:                    X8.RM1                       NA
+V                               0.000                   -1.000 
+Power DC Terms:
+PD                              0.000                  666.667 
+
+DC Pin Currents:
+Ir                              0.000                 -666.667 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R13                   X8.R14
+Using model:                    X8.RM1                   X8.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X8.X4.R                   X8.R17
+Using model:                        NA                   X8.RM1
+V                              -1.000                    0.000 
+Power DC Terms:
+PD                            666.667                    0.000 
+
+DC Pin Currents:
+Ir                           -666.667                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R18                  X8.X5.R
+Using model:                    X8.RM1                       NA
+V                               0.000                   -1.000 
+Power DC Terms:
+PD                              0.000                  666.667 
+
+DC Pin Currents:
+Ir                              0.000                 -666.667 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R21                   X8.R22
+Using model:                    X8.RM1                   X8.RM1
+V                               0.000                    0.000 
+Power DC Terms:
+PD                              0.000                    0.000 
+
+DC Pin Currents:
+Ir                              0.000                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                      X8.X6.R                   X8.R25
+Using model:                        NA                   X8.RM1
+V                              -1.000                    0.000 
+Power DC Terms:
+PD                            666.667                    0.000 
+
+DC Pin Currents:
+Ir                           -666.667                    0.000 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R26                  X8.X7.R
+Using model:                    X8.RM1                       NA
+V                               0.000                   -1.000 
+Power DC Terms:
+PD                              0.000                  666.667 
+
+DC Pin Currents:
+Ir                              0.000                 -666.667 
+
+Device Variables:
+tc1                             0.000                    0.000 
+tc2                             0.000                    0.000 
+
+
+Instance:                       X8.R29
+Using model:                    X8.RM1
+V                               0.111f
+Power DC Terms:
+PD                          1.291E-037
+
+DC Pin Currents:
+Ir                          1.163E-021
+
+Device Variables:
+tc1                             0.000 
+tc2                             0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                        X6.C1                    X8.C1
+Using model:                        NA                   X8.CM1
+V                               0.000                    1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X8.C2                    X8.C3
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X8.C4                    X8.C5
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X8.C6                    X8.C7
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                        X8.C8                    X8.C9
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X8.C10                   X8.C11
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X8.C12                   X8.C13
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+Instance:                       X8.C14                   X8.C15
+Using model:                    X8.CM1                   X8.CM1
+V                             -10.000n                   1.000 
+Power DC Terms:
+PS                              0.000                    0.000 
+
+DC Pin Currents:
+Ic                              0.000                    0.000 
+
+Device Variables:
+ic                              0.000                    0.000 
+
+
+
+Operating Point for Devices of Type Opamp
+=========================================
+Instance:                       X8.X1                    X8.X2
+Using model:                X8.$IDEAL                X8.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X8.X3                    X8.X4
+Using model:                X8.$IDEAL                X8.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X8.X5                    X8.X6
+Using model:                X8.$IDEAL                X8.$IDEAL
+Condition:
+State                             LIN                      LIN
+
+
+Instance:                       X8.X7
+Using model:                X8.$IDEAL
+Condition:
+State                             LIN
+
+
+
+Operating Point for Devices of Type Sine Source
+===============================================
+Instance:                           V1
+Using model:                     U_MOD
+V                               0.000 
+Power DC Terms:
+PG                              0.000 
+
+DC Pin Currents:
+ISource                         0.000 
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:                        X6.G
+V                              0.000 
+Power DC Terms:
+PG                             0.000 
+
+DC Pin Currents:
+ISource                        0.000 
+
+
+
+Operating Point for Devices of Type Function Source
+===================================================
+Instance:                      X6.VCO                    X6.E1
+V                              1.000                    1.000 
+Power DC Terms:
+PG                             0.000                    1.000n
+
+DC Pin Currents:
+ISource                        0.000                   -1.000n
+
+
+Instance:                       X7.E1
+V                             -1.000 
+Power DC Terms:
+PG                             0.000 
+
+DC Pin Currents:
+ISource                        0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:       X7.TIMER1.ElapsedTime            X7.TIMER1.Cnt
+V                              0.000                    0.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+
+Instance:          X7.TIMER1.LastTime                    X7.V1
+V                              0.000                    0.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+
+Instance:                       X8.V3                    X8.V4
+V                             15.000                   15.000 
+Power DC Terms:
+PG                             0.000                    0.000 
+
+DC Pin Currents:
+ISource                        0.000                    0.000 
+
+
