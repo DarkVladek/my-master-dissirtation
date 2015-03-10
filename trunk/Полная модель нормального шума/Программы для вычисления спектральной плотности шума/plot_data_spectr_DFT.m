@@ -2,14 +2,14 @@ clear
 global s t
 Vybor_Signal();
 
-%График шума
-figure(1)
-plot(t,s,'LineWidth',1)
-grid on
-xlabel('t, мс')
-xlim([0,t(end)])
-title('Шум')
-ylim([-5, 5])
+% %График шума
+% figure(1)
+% plot(t,s,'LineWidth',1)
+% grid on
+% xlabel('t, мс')
+% xlim([0,t(end)])
+% title('Шум')
+% ylim([-5, 5])
 
 N_Spectr=500;      % Количество отсчётов спектра
 f_max=50e6;        % Максимальная частота при вычислении спектра
@@ -24,16 +24,16 @@ P_Spectr=zeros(1,N_Spectr);
 h_wait=waitbar(0,'Расчёт спектра...');
 for k=1:K_segment
     waitbar(k/K_segment)
-    t_segment=t((k-1)*N_segment+1:k*N_segment);     % Выделение интервала времени, соответствующего сегменту
+    t_segment=t((k-1)*N_segment+1:k*N_segment);% Выделение интервала времени, соответствующего сегменту
     t_segment=t_segment-t_segment(1); 
-    T_segment=t_segment(end);           % Длительность сегмента
+    T_segment=t_segment(end);% Длительность сегмента
     w=sin(pi*(t_segment/T_segment)).^2; % Оконная функция sin^2
     s_segment=s((k-1)*N_segment+1:k*N_segment);  % Выделение сегмента
     s_segment=w.*s_segment;  % Умножение на оконную функцию
     dt=diff(t_segment);
     for n=1:N_Spectr
         phi_segment=mod(omega(n)*t_segment,2*pi);
-        Spectr_segment(n)=sum(s_segment(1:end-1).*exp(-j*phi_segment(1:end-1)).*dt); % Дискретное преобразование Фурье сегмента
+        Spectr_segment(n)=sum(s_segment(1:end-1).*exp(-1j*phi_segment(1:end-1)).*dt); % Дискретное преобразование Фурье сегмента
     end
     P_Spectr_segment=(abs(Spectr_segment).^2)/T_segment;    % Двусторонний спектр мощности сегмента
     w_sum2=sum(w.^2)/N_segment;
