@@ -1,4 +1,4 @@
-clear
+clear, close all
 global s t
 Vybor_Signal();
 
@@ -39,7 +39,9 @@ for k=1:K_segment
     w_sum2=sum(w.^2)/N_segment;
     P_Spectr_segment=P_Spectr_segment/w_sum2;    % Коррекция влияния оконной функции на мощность сегмента
     P_Spectr_segment=2*P_Spectr_segment;         % Односторонний спектр мощности сегмента
-    P_Spectr=P_Spectr+P_Spectr_segment;          % Накопление спектра мощности
+    tau=T_segment;
+    P_Spectr_segment=P_Spectr_segment.*(1+(2*pi*f.*tau).^2);%коррекция спектра (проблема с тау) 
+    P_Spectr=P_Spectr+P_Spectr_segment;% Накопление спектра мощности
 end
 close(h_wait)
 P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
