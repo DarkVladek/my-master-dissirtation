@@ -24,11 +24,11 @@ P_Spectr=zeros(1,N_Spectr);
 h_wait=waitbar(0,'Расчёт спектра...');
 for k=1:K_segment
     waitbar(k/K_segment)
-    t_segment=t((k-1)*N_segment+1:k*N_segment);% Выделение интервала времени, соответствующего сегменту
+    t_segment=t(((k-1)/2)*N_segment+1:(k/2)*N_segment);% Выделение интервала времени, соответствующего сегменту
     t_segment=t_segment-t_segment(1); 
     T_segment=t_segment(end);% Длительность сегмента
     w=sin(pi*(t_segment/T_segment)).^2; % Оконная функция sin^2
-    s_segment=s((k-1)*N_segment+1:k*N_segment);  % Выделение сегмента
+    s_segment=s(((k-1)/2)*N_segment+1:(k/2)*N_segment);  % Выделение сегмента
     s_segment=w.*s_segment;  % Умножение на оконную функцию
     dt=diff(t_segment);
     for n=1:N_Spectr
@@ -39,15 +39,21 @@ for k=1:K_segment
     w_sum2=sum(w.^2)/N_segment;
     P_Spectr_segment=P_Spectr_segment/w_sum2;    % Коррекция влияния оконной функции на мощность сегмента
     P_Spectr_segment=2*P_Spectr_segment;         % Односторонний спектр мощности сегмента
-    tau=T_segment;
-    P_Spectr_segment=P_Spectr_segment.*(1+(2*pi*f.*tau).^2);%коррекция спектра (проблема с тау) 
     P_Spectr=P_Spectr+P_Spectr_segment;% Накопление спектра мощности
 end
 close(h_wait)
 P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
+% tau=T_segment;
+% P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра (проблема с тау) 
 figure(2)
+% subplot(211);
 plot(f,P_Spectr);
-%stem (f,P_Spectr)
 grid on
 title('Спектр мощности шума')
 std(s)^2
+% subplot(212);
+% plot(f,P_Spectr_korr);
+% % stem (f,P_Spectr)
+% grid on
+% title('Откорректированный спектр мощности шума')
+% std(s)^2
