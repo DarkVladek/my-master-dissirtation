@@ -43,17 +43,18 @@ for k=1:K_segment
 end
 close(h_wait)
 P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
-% tau=T_segment;
-% P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра (проблема с тау) 
+%P_Spectr_norm=P_Spectr/max(P_Spectr);%Нормированный спектр мощности
+tau=6.205e-9;
+P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра 
 figure(2)
-% subplot(211);
+subplot(211);
 plot(f,P_Spectr);
 grid on
 title('Спектр мощности шума')
 std(s)^2
-% subplot(212);
-% plot(f,P_Spectr_korr);
-% % stem (f,P_Spectr)
-% grid on
-% title('Откорректированный спектр мощности шума')
-% std(s)^2
+subplot(212);
+plot(f,P_Spectr_korr);
+% stem (f,P_Spectr)
+grid on
+title('Откорректированный спектр мощности шума')
+std(s)^2
