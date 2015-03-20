@@ -1,4 +1,4 @@
-clear, close all
+clear all
 global s t
 Vybor_Signal();
 
@@ -21,14 +21,14 @@ K_segment=100;      % Количество сегментов
 N_segment=floor(N_s/K_segment); % Количество отсчётов в сегменте
 Spectr_segment=zeros(1,N_Spectr);
 P_Spectr=zeros(1,N_Spectr);
-h_wait=waitbar(0,'Расчёт спектра...');
-for k=1:K_segment
-    waitbar(k/K_segment)
-    t_segment=t(((k-1)/2)*N_segment+1:(k/2)*N_segment);% Выделение интервала времени, соответствующего сегменту
-    t_segment=t_segment-t_segment(1); 
+h_wait=waitbar(0,'2','Name','Расчёт спектра...');
+for k=1:2*(K_segment-1)
+    waitbar(k/(2*(K_segment-1)),h_wait,sprintf('%0.1f %%',100*k/(2*(K_segment-1))))
+    t_segment=t(floor(N_segment*(k-1)/2+1):floor(N_segment*(k+1)/2));% Выделение интервала времени, соответствующего сегменту
+    t_segment=t_segment-t_segment(1);
     T_segment=t_segment(end);% Длительность сегмента
     w=sin(pi*(t_segment/T_segment)).^2; % Оконная функция sin^2
-    s_segment=s(((k-1)/2)*N_segment+1:(k/2)*N_segment);  % Выделение сегмента
+    s_segment=s(floor(N_segment*(k-1)/2+1):floor(N_segment*(k+1)/2));  % Выделение сегмента
     s_segment=w.*s_segment;  % Умножение на оконную функцию
     dt=diff(t_segment);
     for n=1:N_Spectr
@@ -43,18 +43,19 @@ for k=1:K_segment
 end
 close(h_wait)
 P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
-%P_Spectr_norm=P_Spectr/max(P_Spectr);%Нормированный спектр мощности
-tau=6.205e-9;
+%P_Spectr_norm=P_Spectr/P_Spectr(1);%Нормированный спектр мощности
+tau=4.896e-9;
 P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра 
 figure(2)
 subplot(211);
 plot(f,P_Spectr);
+xlabel ('f, Гц')
+ylabel ('S, Вт/Гц')
 grid on
-title('Спектр мощности шума')
-std(s)^2
+title('Спектр мощности шума'),
+sprintf('Дисперсия реализации шума равна: %0.3f',std(s)^2)% значение дисперсии
 subplot(212);
 plot(f,P_Spectr_korr);
 % stem (f,P_Spectr)
 grid on
 title('Откорректированный спектр мощности шума')
-std(s)^2
