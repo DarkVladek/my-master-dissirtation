@@ -1,4 +1,4 @@
-clear all
+clear , close all
 global s t
 Vybor_Signal();
 
@@ -44,7 +44,7 @@ end
 close(h_wait)
 P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
 %P_Spectr_norm=P_Spectr/P_Spectr(1);%Нормированный спектр мощности
-tau=3.8e-9;
+tau=4e-9;
 P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра
 figure(2)
 subplot(211);
