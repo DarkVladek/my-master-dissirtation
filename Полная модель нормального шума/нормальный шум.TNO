@@ -3,12 +3,12 @@
 ***                                                                          ***
 ***                                                                          ***
 ***                   Transient Analysis of нормальный шум                   ***
-***                           29.03.2015 15:12:55                            ***
+***                            31.03.2015 9:00:58                            ***
 ********************************************************************************
 Limits
 ======
 Time Range           1m
-Maximum Time Step    10n
+Maximum Time Step    1n
 Number of Points     51
 Temperature          Linear 27
 Retrace Runs         1
