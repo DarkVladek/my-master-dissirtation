@@ -47,17 +47,17 @@ P_Spectr=P_Spectr/K_segment; % Усреднённый спектр мощности
 tau=4e-9;
 P_Spectr_korr=P_Spectr.*(1+(2*pi*f.*tau).^2);%коррекция спектра
 figure(2)
-subplot(211);
+% subplot(211);
 plot(f,P_Spectr);
 xlabel ('f, Гц')
 ylabel ('S, Вт/Гц')
 grid on
 title('Спектр мощности шума')
 sprintf('Дисперсия реализации шума равна: %0.3f',std(s)^2)% значение дисперсии
-subplot(212);
-plot(f,P_Spectr_korr);
-% stem (f,P_Spectr)
-xlabel ('f, Гц')
-ylabel ('S, Вт/Гц')
-grid on
-title('Откорректированный спектр мощности шума')
+% subplot(212);
+% plot(f,P_Spectr_korr);
+% % stem (f,P_Spectr)
+% xlabel ('f, Гц')
+% ylabel ('S, Вт/Гц')
+% grid on
+% title('Откорректированный спектр мощности шума')
