@@ -869,7 +869,7 @@ Scale 1=1
 Scale 2=1
 SB 3=0,104
 Scale 3=0.6666666666666666
-Grid=56,38
+Grid=63,54
 
 [Page]
 Index=1
@@ -915,7 +915,7 @@ Font=Height=-19,FStyle=0,Color=#0000FF,Name=Arial
 WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Select Box Color=#000080
-Title=нормальный шум.cir 5
+Title=нормальный шум.cir
 AutoTitle=Yes
 Grid Color=#808080
 Grid Weight=1
@@ -1548,7 +1548,7 @@ LinearY=True
 [Limits]
 Analysis=Transient
 TRange=1m
-TStep=10n
+TStep=1n
 NPts=51
 Temp=27
 RetraceRuns=1
@@ -2092,7 +2092,7 @@ Range Grid X=20u
 Range Grid Y=0.5
 WSP Title="v(14) vs T"
 WSP Checked=False
-WSP NOP=598887
+WSP NOP=1312203
 WSP Save Actual Data=True
 WSP Wav Order=0
 Enable=Enable
@@ -2158,7 +2158,7 @@ Range Grid X=20u
 Range Grid Y=1
 WSP Title="v(12) vs T"
 WSP Checked=True
-WSP NOP=598887
+WSP NOP=1312203
 WSP Save Actual Data=True
 WSP Wav Order=0
 Enable=Enable
