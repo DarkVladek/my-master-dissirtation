@@ -52,10 +52,12 @@ plot(f,P_Spectr);
 xlabel ('f, √ц')
 ylabel ('S, ¬т/√ц')
 grid on
-title('—пектр мощности шума'),
+title('—пектр мощности шума')
 sprintf('ƒисперси€ реализации шума равна: %0.3f',std(s)^2)% значение дисперсии
 subplot(212);
 plot(f,P_Spectr_korr);
 % stem (f,P_Spectr)
+xlabel ('f, √ц')
+ylabel ('S, ¬т/√ц')
 grid on
 title('ќткорректированный спектр мощности шума')
